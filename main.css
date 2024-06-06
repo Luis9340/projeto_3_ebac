@@ -1,0 +1,126 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+    background-color: #0B2027;
+}
+
+.nav .nav-link.active {
+    color: #E7ECEF;
+    background-color: #1B998B;
+}
+
+.nav .nav-link {
+    color:#24beac;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-family: "Quicksand", sans-serif;
+    font-size: xx-large;
+    color: #EC4067;
+}
+
+.navbar-brand:hover {
+    color: #EC4067;
+}
+
+.nav , .navbar-toggler {
+    color: #1B998B;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%231B998B' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    --bs-navbar-toggler-border-color: #1B998B;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #1B998B;
+}
+
+
+.carousel-indicators .active {
+    background-color: #24beac;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231B998B'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231B998B'%3e%3cpath d='M11.354 1.646a.5.5 0 0 0-.708 0L4.646 8l6.646 6.354a.5.5 0 0 0 .708-.708L5.707 8l5.647-5.646a.5.5 0 0 0 0-.708z'/%3e%3c/svg%3e");
+}
+
+.section-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+.section-title span {
+    color: #EC4067;
+}
+
+#nossa-empresa {
+    background-color: #E7ECEF;
+    color: #272932;
+}
+
+.text-colored {
+    color: #24beac;
+}
+
+.section-title>.text-colored {
+    color: #24beac;
+}
+
+#eventos {
+    background-color: #0b584f;
+    color: #E7ECEF;
+}
+
+#servicos{
+    background-color: #E7ECEF;
+}
+
+.serv-bt:hover {
+    color: #1B998B;
+    transition: 0.5s ease;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    width: 100%;
+    background-color: #1B998B;
+    color: #E7ECEF;
+}
+
+#contato button:hover {
+    background-color: #24beac;
+    transition: 0.5 ease;
+}
+
+#contato {
+    background-color: #0b584f;
+    color: #E7ECEF;
+}
+
+@media (max-width: 47.9375rem) {
+    .carousel-item img {
+        height: 17.5rem;
+    }
+}

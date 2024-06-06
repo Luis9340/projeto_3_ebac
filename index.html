@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="#cabecalho">
+        <div class="container">
+            <h1  class="navbar-brand m   -0">Photo.Click</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="nav navbar-toggler-icon"></span>
+            </button>
+        <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#nossa-empresa">
+                        <i class="bi bi-buildings me-1"></i>
+                        Nossa Empresa</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="#eventos">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">
+                        <i class="bi bi-camera me-1"></i>
+                        Nossos serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">
+                        <i class="bi bi-chat-right-text me-1"></i>
+                        Fale conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-smooth-scroll="true" data-bs-target="cabecalho">
+    <section id="nossa-empresa">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./img/slide1.png" alt="foto de camera">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slide2.png" alt="foto de montanha">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slide3.png" alt="foto de flores">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slide4.png" alt="foto de paisagen">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./img/estudio.png" class="d-block w-100 rounded" alt="foto do estudio de fotografia">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre a <span>Photo.Click</span></h2>
+                        <p>
+                            Photo.Click é mais do que um estúdio de fotografia, é o lugar onde cada clique conta uma história. Com uma equipe apaixonada e talentosa, estamos dedicados a capturar momentos preciosos e transformá-los em memórias que durarão para sempre.
+                        </p>
+                        <h3 class="section-title">Sobre nosso <span class="text-colored">Estúdio</span></h3>
+                        <p>
+                            No Photo.Click, nosso espaço é projetado para oferecer o ambiente ideal para capturar momentos especiais com perfeição. Nossas instalações são cuidadosamente planejadas para proporcionar conforto e funcionalidade.
+                        </p>
+                        <ul>
+                            <li>Estúdio principal</li>
+                            <li>Sala de maquiagem e vestiário</li>
+                            <li>Equipamento fotográfico de alta qualidade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center fs-1">Agendar <span class="text-colored">Eventos</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./img/casamento.png" class="d-block w-100 rounded mb-3" alt="foto de casamento">
+                    <h3 class="text-colored section-title fs-3 text-center">
+                        <i class="bi bi-arrow-through-heart me-1"></i>
+                        Casamentos</h3>
+                    <p class="text-center">A Photo.Click cobre eventos de casamento com uma abordagem profissional e atenciosa, garantindo que cada momento seja capturado com perfeição. Nossa cobertura começa cedo, com a equipe chegando para fotografar os preparativos da noiva e do noivo, utilizando câmeras de alta resolução e lentes especializadas para detalhes nítidos e emocionantes.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./img/aniversario.png" class="d-block w-100 rounded mb-3" alt="foto de casamento">
+                    <h3 class="text-colored section-title fs-3 text-center">
+                        <i class="bi bi-cake me-1"></i>
+                        Aniversários</h3>
+                    <p class="text-center">A Photo.Click oferece uma cobertura completa e profissional para eventos de aniversário, garantindo que cada momento especial seja imortalizado com precisão e criatividade. Nossa equipe chega ao local com antecedência para se preparar e configurar os equipamentos, incluindo câmeras de alta resolução, iluminação portátil e acessórios fotográficos.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./img/confraternizacao.png" class="d-block w-100 rounded mb-3" alt="foto de casamento">
+                    <h3 class="text-colored section-title fs-3 text-center">
+                        <i class="bi bi-people me-1"></i>
+                        Confraternizações</h3>
+                    <p class="text-center">A Photo.Click oferece uma cobertura abrangente e profissional para eventos de confraternização, capturando a essência e a alegria de cada momento. Nossa equipe chega ao local com antecedência para configurar o equipamento, que inclui câmeras de alta resolução, iluminação portátil e diversos acessórios fotográficos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title fs-1 text-center mb-5 pt-5">
+                    Nossos <span class="text-colored">Serviços</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#foto-servico" class="nav-link serv-bt active">Foto</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#video-servico" class="nav-link serv-bt">Vídeo</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#edicao-servico" class="nav-link serv-bt">Edição</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="foto-servico">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./img/retrato.png" alt="Fotografia de Retrato" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Retrato</h5>
+                                    <p>Sessões de retrato individuais, familiares ou profissionais.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/pdcasamento.png" alt="Fotografia de Casamento" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Casamento</h5>
+                                    <p>Cobertura completa de cerimônias e recepções de casamentos.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/evento.png" alt="Fotografia de Eventos" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Eventos</h5>
+                                    <p>Cobertura fotográfica para eventos corporativos, festas de aniversário, confraternizações e outros.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/produto.png" alt="Fotografia de Produtos" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Produtos</h5>
+                                    <p>Sessões fotográficas para catálogos, e-commerce e campanhas publicitárias de produtos variados.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/moda.png" alt="Fotografia de Moda" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Moda</h5>
+                                    <p>Ensaios fotográficos para modelos, editoriais de moda e campanhas publicitárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/maternidade.png" alt="Fotografia de Maternidade" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Maternidade</h5>
+                                    <p>Sessões fotográficas para registrar a gravidez e momentos especiais de futuros pais.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/bebe.png" alt="Fotografia de Bebês e Crianças" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Bebês e Crianças</h5>
+                                    <p>Ensaios fotográficos para recém-nascidos, bebês e crianças, em estúdio ou locações externas.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/arquitetura.png" alt="Fotografia de Arquitetura" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia de Arquitetura</h5>
+                                    <p>Sessões fotográficas de interiores e exteriores de imóveis, para arquitetos, designers e imobiliárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/gastronomia.png" alt="Fotografia Gastronômica" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia Gastronômica</h5>
+                                    <p>	Fotografia de alimentos e bebidas para restaurantes, bares e campanhas publicitárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/drone.png" alt="Fotografia Aérea" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Fotografia Aérea (Drone)</h5>
+                                    <p>Captura de imagens aéreas utilizando drones, ideal para eventos, imóveis e paisagens.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="video-servico">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./img/pdcasamento.png" alt="Fotografia de Casamento" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia de Casamento</h5>
+                                    <p>Cobertura completa de cerimônias e recepções de casamentos.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/evento.png" alt="Fotografia de Eventos" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia de Eventos</h5>
+                                    <p>Cobertura videográfica para eventos corporativos, festas de aniversário, confraternizações e outros.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/moda.png" alt="Fotografia de Moda" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia de Moda</h5>
+                                    <p>Ensaios videográficos para modelos, editoriais de moda e campanhas publicitárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/arquitetura.png" alt="Fotografia de Arquitetura" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia de Arquitetura</h5>
+                                    <p>Sessões videográficas de interiores e exteriores de imóveis, para arquitetos, designers e imobiliárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/gastronomia.png" alt="Fotografia Gastronômica" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia Gastronômica</h5>
+                                    <p>	Videografia de alimentos e bebidas para restaurantes, bares e campanhas publicitárias.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/drone.png" alt="Fotografia Aérea" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Videografia Aérea (Drone)</h5>
+                                    <p>Captura de vídeos aéreos utilizando drones, ideal para eventos, imóveis e paisagens.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="edicao-servico">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./img/fotobasica.png" alt="Foto de uma camera" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de fotos - Básico</h5>
+                                    <p>Ajustes simples para melhorar a aparência geral da foto, ideal para iniciantes e correções rápidas.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/fotomd.png" alt="Foto de uma camera" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de fotos - Intermediário</h5>
+                                    <p>Ajustes mais detalhados e refinados para aprimorar a qualidade da imagem, geralmente requerem algum conhecimento de ferramentas de edição.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/fotopf.png" alt="Foto de uma camera" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de fotos - Avançado</h5>
+                                    <p>Edição complexa e profissional, que transforma a imagem de maneira significativa, geralmente utilizada por fotógrafos e editores experientes.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/videobasico.png" alt="Foto de um celular no tripe" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de vídeos - Básico</h5>
+                                    <p>Edição simples para melhorar a aparência e a fluidez do vídeo, ideal para iniciantes e correções rápidas.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/videomd.png" alt="foto de uma camera gravando" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de vídeos - Intermediário</h5>
+                                    <p>Edição mais detalhada e refinada para aprimorar a qualidade e a narrativa do vídeo, geralmente requer algum conhecimento de ferramentas de edição.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./img/videopf.png" alt="Foto de uma camera profissional gravando" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Edição de vídeos - Avançado</h5>
+                                    <p>Edição complexa e profissional, que transforma o vídeo de maneira significativa, geralmente utilizada por videógrafos e editores experientes.</p>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-3 fs-1">Entre em <span class="text-colored">Contato</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Mensagem</label>
+                            <textarea id="mensagem" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-threads"></i>
+                            Redes Sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-2 me-2">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-building"></i>
+                            Endereço</h3>
+                        <p>Rua dos Alfeneiros nº 4, Little Whinging - Londres</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
